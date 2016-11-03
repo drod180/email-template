@@ -13,5 +13,7 @@ A responsive email template that is supported in the majority of email clients. 
   <![endif]-->
 ```
 
-####[Template Preview][preview]
+###Preview:
+![preview]
+
 [preview]: ./images/preview.png
