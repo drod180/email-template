@@ -21,24 +21,11 @@
           /* End reset */
 
           @media screen and (max-width: 630px) {
-            /* Display block allows us to stack elements */
-             *[class="mobile-column"] {display: block;}
-            /* Some more stacking elements */
-             *[class="mob-column"] {float: none !important;width: 100% !important;}
             /* Hide stuff */
              *[class="hide"] {display:none !important;}
             /* This sets elements to 100% width and fixes the height issues */
              *[class="100p"] {width:100% !important; height:auto !important;}
             /* For the 2x2 stack */
-             *[class="condensed"] {padding-bottom:40px !important; display: block;}
-            /* Centers content on mobile */
-             *[class="center"] {text-align:center !important; width:100% !important; height:auto !important;}
-            /* 100percent width section with 20px padding */
-             *[class="100pad"] {width:100% !important; padding:20px;}
-            /* 100percent width section with 20px padding left & right */
-             *[class="100padleftright"] {width:100% !important; padding:0 20px 0 20px;}
-            /* 100percent width section with 20px padding top & bottom */
-             *[class="100padtopbottom"] {width:100% !important; padding:20px 0px 20px 0px;}
           }
         </style>
     </head>
@@ -118,7 +105,7 @@
         </tr>
         <tr>
           <td>
-            <table align="center" bgcolor="#FFFFFF" cellspacing="0" cellpadding="20" width="640" class="100pad" style="border-left:2px solid #DDDAC2; border-right:2px solid #DDDAC2;">
+            <table align="center" bgcolor="#f2f2f2" cellspacing="0" cellpadding="20" width="640" class="100p">
               <tr>
                 <td align="center" style="font-size:20px; color:#000000;">
                   <font face="'Roboto', Arial, sans-serif">Body Subject</font>
@@ -130,10 +117,10 @@
                 </td>
               </tr>
               <tr>
-                <table align="center" bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" width="640" class="100pad" style="border-left:2px solid #DDDAC2; border-right:2px solid #DDDAC2;">
+                <table align="center" bgcolor="#f2f2f2" cellspacing="0" cellpadding="0" width="640" class="100p">
                   <tr>
                     <td align="center">
-                      <img src="images/profile-img.jpg" alt="profile-img" border="0" style="display:block" />
+                      <img src="images/profile-img.png" alt="profile-img" border="0" style="display:block" />
                     </td>
                   </tr>
                 </table>
@@ -168,14 +155,24 @@
                     </tr>
                   </table>
                 </td>
-
               </tr>
             </table>
           </td>
         </tr>
       </table>
-      <table align="center" bgcolor=#FFFFFF cellspacing="0" cellpadding="20" width="640" class="100p">
-
+      <table align="center" bgcolor=#f2f2f2 cellspacing="0" cellpadding="20" width="640" class="100p">
+        <tr>
+          <td align="left">
+            <font face="'Roboto', Arial, sans-serif">
+              © Template 2016
+            </font>
+          </td>
+          <td align="right">
+            <font face="'Roboto', Arial, sans-serif">
+              <a href="#" style="color:#000000; text-decoration:none;">Unsubscribe</a>
+            </font>
+          </td>
+        </tr>
       </table>
     </body>
 </html>
